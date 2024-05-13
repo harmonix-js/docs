@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+const pkg = await (await fetch('https://registry.npmjs.org/@harmonix-js%2fcore')).json()
+
 export default defineConfig({
   title: 'Harmonix',
   description: 'Next-gen Discord bot Framework',
@@ -10,9 +12,8 @@ export default defineConfig({
 
     nav: [
       { text: 'Get Started', link: '/getting-started/', activeMatch: '/getting-started/' },
-      { text: 'Configuration', link: '/getting-started/', activeMatch: '/config/' },
       {
-        text: '0.0.4',
+        text: pkg['dist-tags'].latest,
         items: [
           {
             text: 'Changelog',
