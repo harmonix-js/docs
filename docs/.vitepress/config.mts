@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'Get Started', link: '/getting-started/', activeMatch: '/getting-started/' },
       { text: 'Configuration', link: '/getting-started/', activeMatch: '/config/' },
       {
-        text: '0.0.1',
+        text: '0.0.4',
         items: [
           {
             text: 'Changelog',

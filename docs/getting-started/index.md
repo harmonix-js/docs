@@ -26,7 +26,7 @@ Harmonix uses standard conventions and an organized directory structure to autom
 
 - **Convention over configuration**: Harmonix follows a set of conventions to simplify the development process. However, you can still customize the configuration file to override the default behavior.
 
-- **Built-ins**: Harmonix includes a set of built-in commands that can be used to manage your bot, such as `help`, `ping`, and `reload`. These commands can be disabled or modified as needed. A built-in event is also included to handle errors.
+- **Built-ins**: ⚠️ In progress
 
 ### Architecture
 
