@@ -13,7 +13,6 @@ hero:
       text: Get Started
       link: /getting-started/
     - theme: alt
-    - theme: alt
       text: View on GitHub
       link: https://github.com/harmonix-js/core
 
