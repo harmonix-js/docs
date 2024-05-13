@@ -13,11 +13,9 @@ hero:
       text: Get Started
       link: /getting-started/
     - theme: alt
-      text: Why Harmonix?
-      link: /markdown-examples
     - theme: alt
       text: View on GitHub
-      link: /api-examples
+      link: https://github.com/harmonix-js/core
 
 features:
   - icon: 📁
