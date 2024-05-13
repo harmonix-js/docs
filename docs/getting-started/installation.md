@@ -65,6 +65,6 @@ yarn start
 
 <div class="danger custom-block" style="padding-top: 8px">
 
-An error will occur. Refer to the [Configuration](/guide/configuration) guide to learn how to set up your bot.
+An error will occur. Refer to the [Configuration](/getting-started/configuration) guide to learn how to set up your bot.
 
 </div>
