@@ -9,8 +9,8 @@ export default defineConfig({
     logo: '/logo.png',
 
     nav: [
-      { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-      { text: 'Configuration', link: '/config/', activeMatch: '/config/' },
+      { text: 'Get Started', link: '/getting-started/', activeMatch: '/getting-started/' },
+      { text: 'Configuration', link: '/getting-started/', activeMatch: '/config/' },
       {
         text: '0.0.1',
         items: [
@@ -28,10 +28,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Introduction',
+        text: 'Get Started',
         items: [
-          { text: 'What is Harmonix?', link: '/guide/' },
-          { text: 'Installation', link: '/guide/installation' }
+          { text: 'Introduction', link: '/getting-started/' },
+          { text: 'Installation', link: '/getting-started/installation' },
+          { text: 'Configuration', link: '/getting-started/configuration' }
         ]
       }
     ],
