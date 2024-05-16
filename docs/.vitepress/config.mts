@@ -12,6 +12,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Get Started', link: '/getting-started/', activeMatch: '/getting-started/' },
+      { text: 'Usage', link: '/usage/commands', activeMatch: '/usage/'},
       {
         text: pkg['dist-tags'].latest,
         items: [
