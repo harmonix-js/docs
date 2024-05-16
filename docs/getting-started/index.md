@@ -14,7 +14,7 @@ We've simplified everything to enable you to start writing commands and events i
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Just want to try it out? Skip to the [Quickstart](/getting-started/installation).
+Just want to try it out? Skip to the [Installation](/getting-started/installation).
 
 </div>
 
@@ -24,9 +24,9 @@ Harmonix uses standard conventions and an organized directory structure to autom
 
 - **File-based structure**: Commands, events and context menus are defined in separate files, making it easier to manage and organize your bot's codebase.
 
-- **Convention over configuration**: Harmonix follows a set of conventions to simplify the development process. However, you can still customize the configuration file to override the default behavior.
+- **Argument parsing**: Harmonix automatically parses command arguments, and resolves them to the correct type, making it easier to work with user input.
 
-- **Built-ins**: ⚠️ In progress
+- **Preconditions**: Acts like middleware in web, it give you the possibility to restrict access to commands based on user permissions, roles, or other conditions.
 
 ### Architecture
 

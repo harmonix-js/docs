@@ -35,6 +35,15 @@ export default defineConfig({
           { text: 'Installation', link: '/getting-started/installation' },
           { text: 'Configuration', link: '/getting-started/configuration' }
         ]
+      },
+      {
+        text: 'Usage',
+        items: [
+          { text: 'Commands', link: '/usage/commands' },
+          { text: 'Events', link: '/usage/events' },
+          { text: 'Context Menus', link: '/usage/context-menus' },
+          { text: 'Preconditions', link: '/usage/preconditions' }
+        ]
       }
     ],
 
