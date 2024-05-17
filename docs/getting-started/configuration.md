@@ -22,7 +22,9 @@ Below is an example of a minimal configuration file. It exports the `defineHarmo
 import { defineHarmonixConfig } from '@harmonix-js/core'
 
 export default defineHarmonixConfig({
-  clentId: 'XXXXXXXXXXXXXXXXXX'
+  client: {
+    intents: [...]
+  }
 })
 ```
 
@@ -30,9 +32,8 @@ export default defineHarmonixConfig({
 
 ### Environment Variables
 
-Harmonix supports the use of environment variables to store sensitive information, such as your bot token. You just have to add a `.env` file to the root of your project and include the following variables `HARMONIX_CLIENT_TOKEN` and `HARMONIX_CLIENT_ID`:
+Harmonix supports the use of environment variables to store sensitive information, such as your bot token. You just have to add a `.env` file to the root of your project and include the following variables `DISCORD_CLIENT_TOKEN`:
 
 ```
-HARMONIX_CLIENT_TOKEN="XXXXXXXXXXXXXXXXXX"
-HARMONIX_CLIENT_ID="XXXXXXXXXXXXXXXXXX" # Or use the client ID in the configuration file
+DISCORD_CLIENT_TOKEN="XXXXXXXXXXXXXXXXXX"
 ```
