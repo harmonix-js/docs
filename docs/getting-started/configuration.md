@@ -22,7 +22,7 @@ Below is an example of a minimal configuration file. It exports the `defineHarmo
 import { defineHarmonixConfig } from '@harmonix-js/core'
 
 export default defineHarmonixConfig({
-	clentId: 'XXXXXXXXXXXXXXXXXX'
+  clentId: 'XXXXXXXXXXXXXXXXXX'
 })
 ```
 

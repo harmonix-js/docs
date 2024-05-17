@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 
-const pkg = await (await fetch('https://registry.npmjs.org/@harmonix-js%2fcore')).json()
+const pkg = await (
+  await fetch('https://registry.npmjs.org/@harmonix-js%2fcore')
+).json()
 
 export default defineConfig({
   title: 'Harmonix',
@@ -11,8 +13,12 @@ export default defineConfig({
     logo: '/logo.png',
 
     nav: [
-      { text: 'Get Started', link: '/getting-started/', activeMatch: '/getting-started/' },
-      { text: 'Usage', link: '/usage/commands', activeMatch: '/usage/'},
+      {
+        text: 'Get Started',
+        link: '/getting-started/',
+        activeMatch: '/getting-started/'
+      },
+      { text: 'Usage', link: '/usage/commands', activeMatch: '/usage/' },
       {
         text: pkg['dist-tags'].latest,
         items: [

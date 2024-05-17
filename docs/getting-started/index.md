@@ -36,5 +36,3 @@ Harmonix is built on top of the [Discord.js](https://discord.js.org) library, wh
 - Command line interface: [@harmonix-js/cli](https://github.com/harmonix-js/cli)
 
 It is recommended to familiarize yourself with each component to fully comprehend how Harmonix functions.
-
-

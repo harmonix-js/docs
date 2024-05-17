@@ -18,7 +18,7 @@ Events are defined in separate files within the `events` or `listeners` director
 import { defineEvent } from '@harmonix-js/core'
 
 export default defineEvent<'ready'>((client) => {
-	console.log(`Logged in as ${client.user?.tag}!`)
+  console.log(`Logged in as ${client.user?.tag}!`)
 })
 ```
 
@@ -36,4 +36,4 @@ Events can also have options that modify their behavior. These options are passe
 
 - `name`: The name of the event. If not provided, the name of the file will be used.
 - `once`: If `true`, the event will only be triggered once. (or ends the file with `.once.ts`)
-- `type`: To specify if this event is listening to a modal. (`'modal'` or `undefined`)S
+- `type`: To specify if this event is listening to a modal. (`'modal'` or `undefined`)

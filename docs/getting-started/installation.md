@@ -11,6 +11,7 @@ Quickly start using Harmonix right from your terminal.
 ### New Project
 
 **Required Tools**:
+
 - **Node.js** - `v18.0.0` or newer
 - **Text editor** - Use your favorite text editor to write code (e.g. Visual Studio Code)
 - **Terminal** - Use your terminal to run commands
