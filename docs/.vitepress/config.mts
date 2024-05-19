@@ -49,6 +49,9 @@ export default defineConfig({
           { text: 'Commands', link: '/usage/commands' },
           { text: 'Events', link: '/usage/events' },
           { text: 'Context Menus', link: '/usage/context-menus' },
+          { text: 'Buttons', link: '/usage/buttons' },
+          { text: 'Modals', link: '/usage/modals' },
+          { text: 'Select Menus', link: '/usage/select-menus' },
           { text: 'Preconditions', link: '/usage/preconditions' }
         ]
       }
