@@ -17,7 +17,7 @@ Context menus are defined in separate files within the `context-menus` directory
 ```ts [context-menus/greet-user.ts]
 import { defineContextMenu } from '@harmonix-js/core'
 
-export default defineContextMenu<'user'>(
+export default defineContextMenu<'User'>(
   {
     name: 'Greet user',
     preconditions: ['ownerOnly']
@@ -32,9 +32,9 @@ export default defineContextMenu<'user'>(
 
 ## Context Menu Types
 
-In order to let your editor know which arguments are available for each context menu, you can use the `defineContextMenu` function with a generic type argument. In the example above, the context menu type is `'user'` and the editor knows that the context menu function receives an `interaction` argument.
+In order to let your editor know which arguments are available for each context menu, you can use the `defineContextMenu` function with a generic type argument. In the example above, the context menu type is `'User'` and the editor knows that the context menu function receives a user interaction argument.
 
-It can be `'message'` or `'user'`.
+It can be `'Message'` or `'User'`.
 
 ## Context Menu Options
 
@@ -42,4 +42,4 @@ Context menus can also have options that modify their behavior. These options ar
 
 - `name`: The name of the context menu. If not provided, the name of the file will be used.
 - `preconditions`: An array of preconditions that must be met in order for the context menu to be triggered. Precondition functions are defined in the `preconditions` directory.
-- `type`: To specify if this context menu is listening to a message. (`'message'`, `'user` or `undefined`)
+- `type`: To specify if this context menu is listening to a message. (`'Message'`, `'User` or `undefined`)
