@@ -41,6 +41,7 @@ Commands can be customized using the following options:
 - `userPermissions`: An array of permissions that the user must have to execute the command.
 - `guildOnly`: Whether the command can only be executed in a guild.
 - `preconditions`: An array of preconditions that must be met before the command can be executed.
+- `autocomplete`: A function that responds with autocomplete options for the command.
 
 ## Command Options
 
