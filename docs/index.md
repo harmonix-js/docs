@@ -6,7 +6,7 @@ hero:
   text: The intuitive Discord Bot Framework
   tagline: Designed for simplicity and ease of use
   image:
-    src: /logo_with_shadow.png
+    src: /logo.png
     alt: Harmonix
   actions:
     - theme: brand

@@ -19,6 +19,7 @@ import { defineContextMenu } from '@harmonix-js/core'
 
 export default defineContextMenu<'User'>(
   {
+    type: 'User',
     name: 'Greet user',
     preconditions: ['ownerOnly']
   },
