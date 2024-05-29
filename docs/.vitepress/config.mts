@@ -28,7 +28,7 @@ export default defineConfig({
           },
           {
             text: 'Contributing',
-            link: 'https://github.com/harmonix-js/core/blob/main/.github/contributing.md'
+            link: 'https://github.com/harmonix-js/core'
           }
         ]
       }
