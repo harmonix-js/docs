@@ -14,7 +14,7 @@ Harmonix is preset to handle a broad range of use cases right out of the box. To
 
 Located at the root of any Harmonix project, the `harmonix.config.ts` file provides a way to override the default bot settings.
 
-Below is an example of a minimal configuration file. It exports the `defineHarmonixConfig` function, which includes an object representing your specific settings.
+Below is an example of a configuration file. It exports the `defineHarmonixConfig` function, which includes an object representing your specific settings.
 
 ::: code-group
 
